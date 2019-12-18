@@ -78,7 +78,7 @@ namespace InvSee
 								args.Player.PlayerData.CopyCharacter(args.Player);
 								PlayerData playerData = args.Player.PlayerData;
 
-								string query = @"UPDATE tsCharacter
+								string query = @"UPDATE sscinventory
 												 SET Health = @0, MaxHealth = @1, Mana = @2, MaxMana = @3,
 													 Inventory = @4
 												 WHERE Account = @5;";
